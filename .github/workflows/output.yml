@@ -1,7 +1,5 @@
 name: Event Details
-on:
-  issues:
-    types: [opened]
+on: issues
 jobs:
   event:
     runs-on: ubuntu-latest
